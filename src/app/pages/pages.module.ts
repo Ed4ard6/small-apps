@@ -7,6 +7,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { RouterModule } from '@angular/router';
+import { ErrorEnLaPaginaComponent } from './error-en-la-pagina/error-en-la-pagina.component';
 
 
 
@@ -17,7 +18,8 @@ import { RouterModule } from '@angular/router';
     FooterComponent,
     InicioComponent,
     NosotrosComponent,
-    ContactoComponent
+    ContactoComponent,
+    ErrorEnLaPaginaComponent
   ],
   exports:[
     HeaderComponent,
